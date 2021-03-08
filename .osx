@@ -12,6 +12,7 @@
 # @see: http://secrets.blacktree.com/?showapp=com.apple.finder
 #
 # @author Jeff Geerling, 2014
+# @author Curtis Spendlove, 2021
 
 # Warn that some commands will not be run if the script is not run as root.
 if [[ $EUID -ne 0 ]]; then
